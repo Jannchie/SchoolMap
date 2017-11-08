@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/new/map">
+        <file>map.jpg</file>
+        <file>icon/currentpoint.ico</file>
+        <file>icon/point_16.ico</file>
+        <file>icon/point_24.ico</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>activityInformation.txt</file>
+        <file>welcome.png</file>
+        <file>blackground.png</file>
+        <file>icon/bar.jpg</file>
+    </qresource>
+</RCC>

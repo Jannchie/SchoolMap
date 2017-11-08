@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login</class>
+ <widget class="QDialog" name="Login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>183</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+QDialog{
+background-color:qlineargradient(spread:pad, x1:0.46, y1:0, x2:0.484, y2:1, stop:0 rgba(150, 205, 230, 232), stop:1 rgba(232, 236, 255, 255));
+  border-radius:15px;
+  border: 2px solid #3C80B1;  
+font: 9pt &quot;微软雅黑&quot;;
+color:rgb(33, 67, 122)
+}
+
+
+QPushButton
+{
+	color: rgb(255, 255, 255);
+	background-color: rgb(167, 205, 255);
+	border:none;
+    padding: 3px;
+	font-family: &quot;Verdana&quot;;
+	font-size: 15px;
+	text-align: center;
+	font: 9pt &quot;微软雅黑&quot;;
+	border-radius:15px;
+	border: 1px solid #3C80B1;  
+
+}
+
+ QPushButton:hover{
+	color: rgb(255, 255, 255);
+	background-color: rgb(123, 169, 255);
+	border:none;
+    padding: 3px;
+	font-family: &quot;Verdana&quot;;
+	font-size: 15px;
+	text-align: center;
+font: 9pt &quot;微软雅黑&quot;;
+  border-radius:15px;
+  border: 1px solid #3C80B1; 
+}
+ QPushButton:pressed{
+	color: rgb(255, 255, 255);
+	background-color:rgb(50, 109, 150);
+	border:none;
+    padding: 3px;
+	font-family: &quot;Verdana&quot;;
+	font-size: 15px;
+	text-align: center;
+	font: 9pt &quot;微软雅黑&quot;;
+	border-radius:15px;
+	border: 1px solid #3C80B1;  
+
+}</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>60</y>
+     <width>231</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font: 9pt &quot;微软雅黑&quot;;
+color:rgb(33, 67, 122)</string>
+      </property>
+      <property name="text">
+       <string>password  :</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="styleSheet">
+       <string notr="true">border-radius:5px;
+font: 9pt &quot;微软雅黑&quot;;
+color:rgb(33, 67, 122)</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="Loginbutton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>90</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	color: rgb(255, 255, 255);
+	background-color: rgb(167, 205, 255);
+	border:none;
+    padding: 3px;
+	font-family: &quot;Verdana&quot;;
+	font-size: 15px;
+	text-align: center;
+	font: 9pt &quot;微软雅黑&quot;;
+	border-radius:15px;
+	border: 1px solid #3C80B1;  
+
+}
+
+ QPushButton:hover{
+	color: rgb(255, 255, 255);
+	background-color: rgb(123, 169, 255);
+	border:none;
+    padding: 3px;
+	font-family: &quot;Verdana&quot;;
+	font-size: 15px;
+	text-align: center;
+font: 9pt &quot;微软雅黑&quot;;
+  border-radius:15px;
+  border: 1px solid #3C80B1; 
+}
+ QPushButton:pressed{
+	color: rgb(255, 255, 255);
+	background-color:rgb(50, 109, 150);
+	border:none;
+    padding: 3px;
+	font-family: &quot;Verdana&quot;;
+	font-size: 15px;
+	text-align: center;
+	font: 9pt &quot;微软雅黑&quot;;
+	border-radius:15px;
+	border: 1px solid #3C80B1;  
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Login in</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>231</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font: 9pt &quot;微软雅黑&quot;;
+color:rgb(33, 67, 122)</string>
+      </property>
+      <property name="text">
+       <string>user name :</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="styleSheet">
+       <string notr="true">border-radius:5px;
+font: 9pt &quot;微软雅黑&quot;;
+color:rgb(33, 67, 122)</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="Loginbutton_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>130</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	color: rgb(255, 255, 255);
+	background-color: rgb(167, 205, 255);
+	border:none;
+    padding: 3px;
+	font-family: &quot;Verdana&quot;;
+	font-size: 15px;
+	text-align: center;
+	font: 9pt &quot;微软雅黑&quot;;
+	border-radius:15px;
+	border: 1px solid #3C80B1;  
+
+}
+
+ QPushButton:hover{
+	color: rgb(255, 255, 255);
+	background-color: rgb(123, 169, 255);
+	border:none;
+    padding: 3px;
+	font-family: &quot;Verdana&quot;;
+	font-size: 15px;
+	text-align: center;
+font: 9pt &quot;微软雅黑&quot;;
+  border-radius:15px;
+  border: 1px solid #3C80B1; 
+}
+ QPushButton:pressed{
+	color: rgb(255, 255, 255);
+	background-color:rgb(50, 109, 150);
+	border:none;
+    padding: 3px;
+	font-family: &quot;Verdana&quot;;
+	font-size: 15px;
+	text-align: center;
+	font: 9pt &quot;微软雅黑&quot;;
+	border-radius:15px;
+	border: 1px solid #3C80B1;  
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addItem</class>
+ <widget class="QDialog" name="addItem">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>430</width>
+    <height>242</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>添加活动</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>391</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_5">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>活动名称：</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="getName"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>活动日期：</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="getDate"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>活动时间：</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="getTime"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>活动地点：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="chooseAddress">
+        <property name="toolTipDuration">
+         <number>-1</number>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="editable">
+         <bool>false</bool>
+        </property>
+        <property name="currentIndex">
+         <number>-1</number>
+        </property>
+        <property name="insertPolicy">
+         <enum>QComboBox::NoInsert</enum>
+        </property>
+        <property name="sizeAdjustPolicy">
+         <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>14</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="frame">
+         <bool>true</bool>
+        </property>
+        <item>
+         <property name="text">
+          <string>南大门</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>宋健楼</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>主楼</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>图书馆</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>M楼</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>G楼</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>N楼</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>大学生服务区</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>体育场</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>哈工大门诊</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>校史馆</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>新图书馆</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>大学生活动中心/训练场馆</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>学子餐厅</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>旧篮球场</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>新篮球场</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>实验楼C/E</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>留学生公寓/留学生餐厅</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>教工住宅区</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>西南门</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>教工住宅高层</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>B楼</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>学苑餐厅</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>一公寓/二公寓/三公寓/四公寓/五公寓</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>六公寓</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>七公寓</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>八公寓/九公寓/十公寓/十一公寓</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>北门</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>东门</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="save">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>391</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="info">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>389</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
